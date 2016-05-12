@@ -7,6 +7,7 @@
 ##### http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64929
 ##### http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58695
 ### 2. Code
+#### https://github.com/dnaase/Bis-tools
 ### 3. Đọc báo
 #### http://biscuit.readthedocs.io/en/latest/nucleosome_depleted_region.html
 #### https://github.com/zwdzwd/biscuit
