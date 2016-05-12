@@ -1,9 +1,9 @@
 # NOME_TFBS
 ## Việc cần làm
 ### 1. Download data
-#### 1. Thí nghiệm 1:
+#### 1.1. Thí nghiệm 1:
 ##### https://zenodo.org/record/12454#.VzQuuJ5Z5Qu
-#### 2. Thí nghiệm 2:
+#### 1.2. Thí nghiệm 2:
 ##### http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64929
 ##### http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58695
 ### 2. Code
