@@ -10,4 +10,5 @@
 #### http://genome.cshlp.org/content/22/12/2497.long
 #### http://www.cell.com/cell/abstract/S0092-8674%2811%2900942-1
 #### https://github.com/dnaase/Bis-tools
+#### http://bib.oxfordjournals.org/content/early/2015/09/25/bib.bbv086.full.pdf+html
 
