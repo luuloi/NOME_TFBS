@@ -102,3 +102,9 @@ http://bib.oxfordjournals.org/content/early/2015/09/25/bib.bbv086.full.pdf+html
 3. How to analysis
 https://github.com/astatham/NOMe-seq-analysis/blob/master/NOMe.pdf
 https://github.com/dnaase/Bis-tools
+
+4. Compare
+https://github.com/rajanil/msCentipede
+http://pritchardlab.stanford.edu/publications/pdfs/Raj15
+https://bitbucket.org/thashim/piq-single
+https://github.com/slowkow/CENTIPEDE.tutorial
