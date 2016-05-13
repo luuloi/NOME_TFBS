@@ -1,0 +1,104 @@
+1. Compare CENTEPEDE with mine method on IMR90 DNAseI hypersentive --> is my method work?
+# https://github.com/slowkow/CENTIPEDE.tutorial
+
+*DNAseI 
+Digital.foot.printing 	norep wig http://www.ncbi.nlm.nih.gov/epigenomics/17043
+DNAaseI 				rep1 wig http://www.ncbi.nlm.nih.gov/epigenomics/3883
+DNAaseI 				rep2 wig http://www.ncbi.nlm.nih.gov/epigenomics/3882
+*NOMEseq
+http://www.ncbi.nlm.nih.gov/gds?LinkName=pubmed_gds&from_uid=22960375
+http://www.ncbi.nlm.nih.gov/sra?LinkName=pubmed_sra&from_uid=22960375
+*MNase
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM543311
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE21823
+*ATACseq
+
+2. The medod is applied to find the DNA methylation effecting on TFBS
+http://genome.cshlp.org/content/early/2015/03/06/gr.183368.114.full.pdf+html
+a. NOMEseq data
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58695
+
+*HTC116
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1420150
+
+*DKO1
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1420151  
+
+*K562
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64929
+
+# http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58638
+GSM1415873 	HCT116-H2A.Z
+GSM1415874 	HCT116-H3K4me3
+GSM1415875 	HCT116-H3K4me1
+GSM1415876 	HCT116-H3K27ac
+GSM1415877 	HCT116-H3K27me3
+GSM1415878 	HCT116-H3K9me3
+GSM1415879 	HCT116-H3K36me3
+GSM1415880 	HCT116-Input
+GSM1415881 	DKO1-H2A.Z
+GSM1415882 	DKO1-H3K4me3
+GSM1415883 	DKO1-H3K4me1
+GSM1415884 	DKO1-H3K27ac
+GSM1415885 	DKO1-H3K27me3
+GSM1415886 	DKO1-H3K9me3
+GSM1415887 	DKO1-H3K36me3
+GSM1415888 	DKO1-Input
+GSM1420150 	HCT116-NOMe-seq
+GSM1420151 	DKO1-NOMe-seq
+GSM1420152 	HCT116-H2A.Z Rep2
+GSM1420153 	HCT116-H3K4me3 Rep2
+GSM1420154 	HCT116-H3K4me1 Rep2
+GSM1420155 	HCT116-H3K27me3 Rep2
+GSM1420156 	HCT116-H3K9me3 Rep2
+GSM1420157 	HCT116-H3K36me3 Rep2
+GSM1420158 	DKO1-H2A.Z Rep2
+GSM1420159 	DKO1-H3K4me3 Rep2
+GSM1420160 	DKO1-H3K4me1 Rep2
+GSM1420161 	DKO1-H3K27ac Rep2
+GSM1420162 	DKO1-H3K27me3 Rep2
+GSM1420163 	DKO1-H3K9me3 Rep2
+GSM1420164 	DKO1-Input Rep2
+
+b. Other data support
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58638
+from paper: Role of DNA Methylation in Modulating Transcription Factor Occupancy
+http://www.cell.com/cell-reports/pdf/S2211-1247%2815%2900764-0.pdf
+GSM1415873 	HCT116-H2A.Z
+GSM1415874 	HCT116-H3K4me3
+GSM1415875 	HCT116-H3K4me1
+GSM1415876 	HCT116-H3K27ac
+GSM1415877 	HCT116-H3K27me3
+GSM1415878 	HCT116-H3K9me3
+GSM1415879 	HCT116-H3K36me3
+GSM1415880 	HCT116-Input
+GSM1415881 	DKO1-H2A.Z
+GSM1415882 	DKO1-H3K4me3
+GSM1415883 	DKO1-H3K4me1
+GSM1415884 	DKO1-H3K27ac
+GSM1415885 	DKO1-H3K27me3
+GSM1415886 	DKO1-H3K9me3
+GSM1415887 	DKO1-H3K36me3
+GSM1415888 	DKO1-Input
+GSM1420150 	HCT116-NOMe-seq
+GSM1420151 	DKO1-NOMe-seq
+GSM1420152 	HCT116-H2A.Z Rep2
+GSM1420153 	HCT116-H3K4me3 Rep2
+GSM1420154 	HCT116-H3K4me1 Rep2
+GSM1420155 	HCT116-H3K27me3 Rep2
+GSM1420156 	HCT116-H3K9me3 Rep2
+GSM1420157 	HCT116-H3K36me3 Rep2
+GSM1420158 	DKO1-H2A.Z Rep2
+GSM1420159 	DKO1-H3K4me3 Rep2
+GSM1420160 	DKO1-H3K4me1 Rep2
+GSM1420161 	DKO1-H3K27ac Rep2
+GSM1420162 	DKO1-H3K27me3 Rep2
+GSM1420163 	DKO1-H3K9me3 Rep2
+GSM1420164 	DKO1-Input Rep2
+
+c. other resource
+http://bib.oxfordjournals.org/content/early/2015/09/25/bib.bbv086.full.pdf+html
+
+3. How to analysis
+https://github.com/astatham/NOMe-seq-analysis/blob/master/NOMe.pdf
+https://github.com/dnaase/Bis-tools
