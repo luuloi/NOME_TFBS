@@ -1,4 +1,4 @@
-# NOME_TFBS
+# NOME_TFBS (thứ 5, 6h VN)
 ## Việc cần làm
 ### 1. Download data
 #### 1.1. Thí nghiệm 1:
